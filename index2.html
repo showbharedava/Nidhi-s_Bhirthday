@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffebcd;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff69b4;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.5em;
+            margin: 10px 0 0;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .gallery img {
+            margin: 10px;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .letter,
+        .playlist,
+        .wishes {
+            padding: 20px;
+            margin: 20px;
+            background-color: #e7fbff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .playlist ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .playlist li {
+            margin: 5px 0;
+        }
+
+        .wishes form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .wishes input,
+        .wishes textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .wishes button {
+            padding: 10px;
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Happy Birthday Nidhi !</h1>
+        <p>Wishing you all the love and happiness in the world.</p>
+    </header>
+    <section class="gallery">
+        <img src="photo1.jpg" alt="Photo 1">
+        <img src="photo2.jpg" alt="Photo 2">
+        <img src="photo3.jpg" alt="Photo 3">
+        <img src="photo4.jpg" alt="Photo 4">
+    </section>
+    <section class="letter">
+        <h2>A Love Letter</h2>
+        <p>My dearest Nidhi,</p>
+        <p>I never thought that I could find someone as special as you. You make me a better person. Happy birthday.</p>
+        <p>With all my love,</p>
+        <p>Shivam</p>
+    </section>
+    <section class="playlist">
+        <h2>Our Special Playlist</h2>
+        <ul>
+            <li>Gallan Goodiyaan - Yashita Sharma , Manish Kumar</li>
+            <li><audio src="song1.mp3" controls></audio></li>
+            <li>Pehle Bhi - Vishal Mishra</li>
+            <li><audio src="song2.mp3" controls></audio></li>
+            <li>Kol Mere - Ishan Krishan</li>
+            <li><audio src="song3.mp3" controls></audio></li>
+            <li>Tari Aankh No - Jigardan Gadhavi</li>
+            <li><audio src="song4.mp3" controls></audio></li>
+        </ul>
+    </section>
+    <section class="wishes">
+        <h2>Birthday Wishes</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <textarea placeholder="Your Birthday Wish" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>
